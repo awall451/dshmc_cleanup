@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Name=Run My Script
+Comment=This will run my custom script in a terminal
+Exec=terminator --fullscreen -e "/dillonData/git/dshmc_cleanup/test.sh"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+Categories=Utility;
